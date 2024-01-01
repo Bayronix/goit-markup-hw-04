@@ -202,7 +202,7 @@ nav ul {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/people-office\ 1.jpg);
+    url(../images/img-name.jpeg);
   max-width: 1440px;
   background-repeat: no-repeat;
   background-position: center;
@@ -271,6 +271,24 @@ nav ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.foto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  border-radius: 4px;
+  border: 1px solid var(--LIGHT-SLATE, #8e8f99);
+  background: var(--CLOUD, #f4f4fd);
+}
+
+svg {
+  width: 64;
+  height: 64;
 }
 
 /* Стилі для списку в секції */
