@@ -1,0 +1,428 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.header > div {
+  display: flex;
+  justify-content: space-between;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+li {
+  margin: 0;
+  padding-left: 0;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  margin: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+ul {
+  padding-left: 0;
+  margin: 0;
+}
+
+.container {
+  max-width: 1158px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.header-list {
+  list-style: none; /* Вимикаємо маркери */
+}
+
+.title {
+  color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.17; /* 116.667% */
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-right: 76px;
+}
+/* Стилі для логотипу */
+.logo-studio {
+  color: var(--NAVY-BLUE, #2e2f42);
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  gap: 40px;
+}
+
+.nav-link {
+  color: var(--NAVY-BLUE, #2e2f42);
+
+  /* Body Medium */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  padding: 24px 0;
+  display: block;
+}
+
+.nav-link:hover {
+  color: #404bbf;
+}
+.nav-link:focus {
+  color: #404bbf;
+}
+
+.address {
+  font-style: normal;
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+}
+.adress_link {
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  padding: 24px 0;
+  display: block;
+}
+.adress-ul {
+  list-style: none;
+}
+
+.adress_link:hover {
+  color: #404bbf;
+}
+.adress_link:focus {
+  color: #404bbf;
+}
+
+/* Вирівнювання тексту у списку */
+
+.address ul {
+  display: flex;
+  gap: 40px;
+  right: 0;
+  box-sizing: border-box;
+}
+
+.address {
+  font-style: normal;
+}
+
+.address-wrap-add:hover {
+  color: #404bbf;
+}
+.address-wrap-add:focus {
+  color: #404bbf;
+}
+
+/* Section-1 */
+/* Стилі для заголовка в першій секції */
+/* Стилі для секції */
+.section_wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #2e2f42;
+  padding: 188px 0;
+}
+
+/* Решта стилів залишаються незмінними */
+.section-title {
+  font-family: "Roboto", sans-serif;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  font-weight: 700;
+  color: #ffffff;
+  max-width: 496px;
+  margin-bottom: 48px;
+}
+
+.section-button-wrap {
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  margin: 0 auto;
+  background-color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.container .section-button-wrap:hover,
+.container .section-button-wrap:focus {
+  background-color: #404bbf;
+}
+
+/* Section-2 */
+/* Стилі для заголовка з класом, заданими в описі */
+/* Стилі для секції */
+.information_section {
+  padding: 120px 0;
+}
+
+/* Стилі для заголовка розділу */
+.section-list-item-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+/* Стилі для параграфа розділу */
+.section-list-item-paragraph {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/* Стилі для списку в секції */
+/* Стилі для пункту списку в секції */
+.section-list-gap {
+  display: flex;
+  gap: 24px;
+  padding: 0;
+  margin: 0ww;
+}
+.section-list-gap {
+  list-style-type: none;
+}
+.section-list-item {
+  width: calc((100% - 72px) / 4);
+}
+
+/* Стилі для заголовка в пункті списку */
+.section-list-item h3 {
+  margin-bottom: 8px;
+}
+
+/* Загальні стилі для прихованого тексту */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* Section 3 */
+.section {
+  background-color: #f4f4fd;
+  padding: 120px 0;
+}
+
+.header-section {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+  margin-bottom: 72px;
+}
+
+.list-item {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list-container {
+  background-color: #ffffff;
+}
+
+.list-header {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.list-paragraph {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  gap: 24px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.list-container {
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
+.name {
+  padding: 32px 0;
+}
+
+/* Section 4 */
+.portfolio-section {
+  background: var(--WHITE, #fff);
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.portfolio_header {
+  color: var(--NAVY-BLUE, #2e2f42);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.1111; /* Замість 40px */
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  margin-bottom: 72px;
+}
+.porfolio-position {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+  list-style: none;
+}
+
+.container-portfolio {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+.start-apps {
+  width: calc((100% - 48px) / 3);
+}
+
+/* Приклад стилів для елементів портфеля */
+.start-apps img {
+  width: 100%;
+}
+
+.start_app_header {
+  color: var(--NAVY-BLUE, #2e2f42);
+
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2; /* 120% */
+  letter-spacing: 0.02em;
+  margin: 8px;
+}
+
+/* Текстовий елемент .p_header */
+.p_header {
+  color: var(--SLATE, #434455);
+
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+}
+
+/* Footer */
+.title-footer {
+  color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.logo {
+  color: var(--CLOUD, #f4f4fd);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  /* 116.667% */
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.footer {
+  background-color: #2e2f42;
+  color: #fff;
+  padding: 100px 0;
+}
+
+.footer-paragraph {
+  color: var(--CLOUD, #f4f4fd);
+
+  /* Body */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  /* 150% */
+  letter-spacing: 0.02em;
+}
