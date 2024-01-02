@@ -492,8 +492,6 @@ svg {
 }
 
 .content-wrapper {
-  display: flex;
-  align-items: baseline;
 }
 
 .logo {
