@@ -516,6 +516,14 @@ svg {
   padding: 100px 0;
 }
 
+.container-2 {
+  max-width: 1158px;
+  margin-left: auto;
+  margin-right: 120px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 .footer-paragraph {
   color: var(--CLOUD, #f4f4fd);
 
