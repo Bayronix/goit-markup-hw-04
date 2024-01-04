@@ -66,6 +66,7 @@ img {
 ul {
   padding-left: 0;
   margin: 0;
+  list-style-type: none;
 }
 
 .container {
@@ -377,6 +378,7 @@ svg {
 
 .ul-class {
   display: flex;
+  text-align: center;
   justify-content: center;
   gap: 24px;
 }
