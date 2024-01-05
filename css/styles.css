@@ -378,6 +378,13 @@ svg {
   align-items: center;
   justify-content: center;
 }
+.ankor-contacts:hover {
+  background-color: #404bbf;
+}
+
+.ankor-contacts:focus {
+  background-color: #404bbf;
+}
 
 .svg-team {
   width: 16px;
