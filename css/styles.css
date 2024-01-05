@@ -460,12 +460,17 @@ svg use {
 }
 
 /* Footer */
-.content-wrapper {
-  position: absolute;
+.section_wrap {
   display: flex;
-  align-items: baseline;
-  margin: 0;
-  padding: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0 auto;
+  color: #fff;
+  padding: 100px 0;
 }
 
 .title-footer {
@@ -501,7 +506,7 @@ svg use {
 .container-2 {
   max-width: 1158px;
   margin-left: auto;
-  margin-right: 120px;
+  margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
 }
