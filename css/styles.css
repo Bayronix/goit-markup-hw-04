@@ -399,78 +399,72 @@ svg use {
 
 /* Section 4 */
 .portfolio-section {
-  background: var(--WHITE, #fff);
+  background: #fff;
   padding-top: 120px;
   padding-bottom: 120px;
 }
 
 .portfolio_header {
-  color: var(--NAVY-BLUE, #2e2f42);
+  color: #2e2f42;
   text-align: center;
   font-family: Roboto;
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.1111; /* Замість 40px */
+  line-height: 1.1111;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   margin-bottom: 72px;
 }
+
 .porfolio-position {
   display: flex;
   flex-wrap: wrap;
-  column-gap: 24px;
-  row-gap: 48px;
+  justify-content: space-between;
   list-style: none;
 }
 
+.start-apps {
+  width: calc((100% - 48px) / 3); /* Змінено з 3 на 2 */
+  margin-bottom: 24px; /* Додано для збереження відстані між елементами */
+}
+
+.start-apps img {
+  width: 100%;
+  height: auto;
+}
+
 .container-portfolio {
-  padding: 32px 16px;
+  padding: 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
 }
-.start-apps {
-  width: calc((100% - 48px) / 3);
-}
-
-/* Приклад стилів для елементів портфеля */
-.start-apps img {
-  width: 100%;
-}
 
 .start_app_header {
-  color: var(--NAVY-BLUE, #2e2f42);
-
+  color: #2e2f42;
   font-family: Roboto;
   font-size: 20px;
   font-weight: 500;
-  line-height: 1.2; /* 120% */
+  line-height: 1.2;
   letter-spacing: 0.02em;
-  margin: 8px;
+  margin: 8px 0;
 }
 
-/* Текстовий елемент .p_header */
 .p_header {
-  color: var(--SLATE, #434455);
-
+  color: #434455;
   font-family: Roboto;
   font-size: 16px;
   font-weight: 400;
-  line-height: 24px; /* 150% */
+  line-height: 24px;
   letter-spacing: 0.32px;
 }
 
 /* Footer */
 .section_wrap {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  align-items: baseline;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  margin: 0 auto;
-  color: #fff;
-  padding: 100px 0;
 }
 
 .title-footer {
