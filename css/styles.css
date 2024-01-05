@@ -8,7 +8,6 @@ body {
   border-bottom: 1px solid #e7e9fc;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
-  /*  */
 }
 
 .header-list li:first-child a {
@@ -17,7 +16,6 @@ body {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* Стилі для псевдоелемента ::after в першому пункті меню */
 .header-list li:first-child a::after {
   content: "";
   position: absolute;
@@ -28,12 +26,10 @@ body {
   border-radius: 2px;
 }
 
-/* Стилі для другого пункту списку з контактами */
-/*  */
 .header > div {
   display: flex;
   justify-content: space-between;
-  width: 1158px;
+  max-width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -49,18 +45,10 @@ h3 {
   margin: 0;
 }
 
-p {
-  margin: 0;
-}
-
-a {
-  margin: 0;
-}
-
+p,
+a,
 img {
-  display: block;
-  width: 100%;
-  height: auto;
+  margin: 0;
 }
 
 ul {
@@ -78,22 +66,21 @@ ul {
 }
 
 .header-list {
-  list-style: none; /* Вимикаємо маркери */
+  list-style: none;
 }
 
 .title {
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
-  font-style: normal;
   font-weight: 700;
-  line-height: 1.17; /* 116.667% */
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
   margin-right: 76px;
 }
-/* Стилі для логотипу */
+
 .logo-studio {
   color: var(--NAVY-BLUE, #2e2f42);
   font-family: "Raleway", sans-serif;
@@ -117,22 +104,17 @@ nav ul {
 
 .nav-link {
   color: var(--NAVY-BLUE, #2e2f42);
-
-  /* Body Medium */
   font-family: Roboto;
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
-  line-height: 1.5; /* 150% */
+  line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;
   padding: 24px 0;
   display: block;
 }
 
-.nav-link:hover {
-  color: #404bbf;
-}
+.nav-link:hover,
 .nav-link:focus {
   color: #404bbf;
 }
@@ -143,6 +125,7 @@ nav ul {
   gap: 40px;
   justify-content: space-between;
 }
+
 .adress_link {
   color: #434455;
   font-size: 16px;
@@ -153,18 +136,15 @@ nav ul {
   display: block;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .adress-ul {
   list-style: none;
 }
 
-.adress_link:hover {
-  color: #404bbf;
-}
+.adress_link:hover,
 .adress_link:focus {
   color: #404bbf;
 }
-
-/* Вирівнювання тексту у списку */
 
 .address ul {
   display: flex;
@@ -177,16 +157,12 @@ nav ul {
   font-style: normal;
 }
 
-.address-wrap-add:hover {
-  color: #404bbf;
-}
+.address-wrap-add:hover,
 .address-wrap-add:focus {
   color: #404bbf;
 }
 
 /* Section-1 */
-/* Стилі для заголовка в першій секції */
-/* Стилі для секції */
 .section_wrap {
   display: flex;
   flex-direction: column;
@@ -210,7 +186,6 @@ nav ul {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* Решта стилів залишаються незмінними */
 .section-title {
   font-family: "Roboto", sans-serif;
   font-size: 56px;
@@ -247,13 +222,10 @@ nav ul {
 }
 
 /* Section-2 */
-/* Стилі для заголовка з класом, заданими в описі */
-/* Стилі для секції */
 .information_section {
   padding: 120px 0;
 }
 
-/* Стилі для заголовка розділу */
 .section-list-item-title {
   font-weight: 500;
   font-size: 20px;
@@ -262,7 +234,6 @@ nav ul {
   color: #2e2f42;
 }
 
-/* Стилі для параграфа розділу */
 .section-list-item-paragraph {
   font-size: 16px;
   line-height: 1.5;
@@ -288,27 +259,22 @@ svg {
   height: 64px;
 }
 
-/* Стилі для списку в секції */
-/* Стилі для пункту списку в секції */
 .section-list-gap {
   display: flex;
   gap: 24px;
   padding: 0;
   margin: 0;
-}
-.section-list-gap {
   list-style-type: none;
 }
+
 .section-list-item {
   width: calc((100% - 72px) / 4);
 }
 
-/* Стилі для заголовка в пункті списку */
 .section-list-item h3 {
   margin-bottom: 8px;
 }
 
-/* Загальні стилі для прихованого тексту */
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -354,6 +320,15 @@ svg {
 
 .list-container {
   background-color: #ffffff;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+.name {
+  padding: 32px 0;
+  text-align: center;
 }
 
 .list-header {
@@ -385,7 +360,7 @@ svg {
 .list-contacts {
   width: 40px;
   height: 40px;
-  margin: 0%;
+  margin: 0;
 }
 
 .links-svg svg {
@@ -393,6 +368,7 @@ svg {
   height: 16px;
   flex-shrink: 0;
 }
+
 .ankor-contact {
   width: 100%;
   height: 100%;
@@ -402,9 +378,11 @@ svg {
   align-items: center;
   justify-content: center;
 }
+
 .svg-team {
   fill: #f4f4fd;
 }
+
 svg use {
   fill: var(--icon-color, #f4f4fd);
 }
@@ -415,16 +393,6 @@ svg use {
 
 .ankor-contact:focus {
   background-color: #404bbf;
-}
-
-.list-container {
-  width: calc((100% - 72px) / 4);
-  border-radius: 0px 0px 4px 4px;
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-}
-.name {
-  padding: 32px 0;
 }
 
 /* Section 4 */
@@ -440,11 +408,12 @@ svg use {
   font-family: Roboto;
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.1111; /* Замість 40px */
+  line-height: 1.1111;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   margin-bottom: 72px;
 }
+
 .porfolio-position {
   display: flex;
   flex-wrap: wrap;
@@ -458,34 +427,31 @@ svg use {
   border: 1px solid #e7e9fc;
   border-top: none;
 }
+
 .start-apps {
   width: calc((100% - 48px) / 3);
 }
 
-/* Приклад стилів для елементів портфеля */
 .start-apps img {
   width: 100%;
 }
 
 .start_app_header {
   color: var(--NAVY-BLUE, #2e2f42);
-
   font-family: Roboto;
   font-size: 20px;
   font-weight: 500;
-  line-height: 1.2; /* 120% */
+  line-height: 1.2;
   letter-spacing: 0.02em;
   margin: 8px;
 }
 
-/* Текстовий елемент .p_header */
 .p_header {
   color: var(--SLATE, #434455);
-
   font-family: Roboto;
   font-size: 16px;
   font-weight: 400;
-  line-height: 24px; /* 150% */
+  line-height: 24px;
   letter-spacing: 0.32px;
 }
 
@@ -493,9 +459,9 @@ svg use {
 .content-wrapper {
   position: absolute;
   display: flex;
-  align-items: baseline; /* or other values depending on your layout */
+  align-items: baseline;
   margin: 0;
-  padding: 0; /* or other values depending on your layout */
+  padding: 0;
 }
 
 .title-footer {
