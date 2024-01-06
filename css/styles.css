@@ -384,15 +384,8 @@ svg use {
   fill: var(--icon-color, #f4f4fd);
 }
 
-.ankor-contacts:hover {
-  background-color: #404bbf;
-}
-.ankor-contacts:active {
-  background-color: #404bbf;
-}
-
-.ankor-contacts:focus,
-.ankor-contacts:active {
+.ankor-contacts:hover,
+.ankor-contacts:focus {
   background-color: #404bbf;
 }
 
@@ -526,14 +519,6 @@ svg use {
   background-color: #2e2f42;
   color: #fff;
   padding: 100px 0;
-}
-
-.container-2 {
-  max-width: 1158px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 .footer-paragraph {
