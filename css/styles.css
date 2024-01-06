@@ -438,7 +438,7 @@ svg use {
   overflow: hidden;
 }
 
-.p-div {
+.paragraf {
   position: absolute;
   top: 0;
   font-size: 16px;
@@ -476,7 +476,7 @@ svg use {
   line-height: 1.2;
   letter-spacing: 0.02em;
   margin: 8px 0;
-  ransition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .p_header {
