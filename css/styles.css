@@ -365,7 +365,7 @@ svg {
   flex-shrink: 0;
 }
 
-.ankor-contact {
+.ankor-contacts {
   width: 100%;
   height: 100%;
   background-color: #4d5ae5;
@@ -386,11 +386,11 @@ svg use {
   fill: var(--icon-color, #f4f4fd);
 }
 
-.ankor-contact:hover {
+.ankor-contacts:hover {
   background-color: #404bbf;
 }
 
-.ankor-contact:focus {
+.ankor-contacts:focus {
   background-color: #404bbf;
 }
 
