@@ -175,10 +175,6 @@ nav ul {
       rgba(46, 47, 66, 0.7)
     ),
     url(../images/img-name.jpeg);
-  max-width: 1440px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
   margin: 0 auto;
 }
 
@@ -216,8 +212,8 @@ nav ul {
   transition: background-color 0.3s ease;
 }
 
-.container .section-button-wrap:hover,
-.container .section-button-wrap:focus {
+.section-button-wrap:hover,
+.section-button-wrap:focus {
   background-color: #404bbf;
 }
 
