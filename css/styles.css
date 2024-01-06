@@ -304,12 +304,6 @@ svg {
   margin-bottom: 72px;
 }
 
-.div-items {
-  display: flex;
-  justify-content: center;
-  gap: 24px;
-}
-
 .list-item {
   display: flex;
   gap: 24px;
