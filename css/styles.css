@@ -482,7 +482,7 @@ svg use {
 }
 
 /* Footer */
-.wraper {
+.container_wrapper {
   display: flex;
   align-items: baseline;
   margin: 0 auto;
