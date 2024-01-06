@@ -424,6 +424,7 @@ svg use {
 .start-apps {
   width: calc((100% - 48px) / 3); /* Змінено з 3 на 2 */
   margin-bottom: 24px; /* Додано для збереження відстані між елементами */
+  transform: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .div-img {
