@@ -387,8 +387,12 @@ svg use {
 .ankor-contacts:hover {
   background-color: #404bbf;
 }
+.ankor-contacts:active {
+  background-color: #404bbf;
+}
 
-.ankor-contacts:focus {
+.ankor-contacts:focus,
+.ankor-contacts:active {
   background-color: #404bbf;
 }
 
