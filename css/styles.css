@@ -384,11 +384,11 @@ svg use {
   fill: var(--icon-color, #f4f4fd);
 }
 
-.ankor-contact:hover {
+.ankor-contacts:hover {
   background-color: #404bbf;
 }
 
-.ankor-contact:focus {
+.ankor-contacts:focus {
   background-color: #404bbf;
 }
 
