@@ -485,7 +485,6 @@ svg use {
 .wraper {
   display: flex;
   align-items: baseline;
-  justify-content: space-between;
 }
 
 .title-footer {
